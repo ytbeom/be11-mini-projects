@@ -15,11 +15,11 @@ project2_price_comparison/
 
 ### 1. API 키 발급 및 .env 파일 추가
 
-* 아래 내용을 참고해 네이버 검색 API CLIEND_ID와 CLIENT_SECRET을 발행합니다.
+* 아래 내용을 참고해 네이버 검색 API CLIENT_ID와 CLIENT_SECRET을 발행합니다.
   * https://developers.naver.com/docs/serviceapi/search/blog/blog.md#%EC%82%AC%EC%A0%84-%EC%A4%80%EB%B9%84-%EC%82%AC%ED%95%AD
 * `project2_price_comparison` 디렉토리 하위에 .env 파일을 만든 뒤 아래와 같은 식으로 적어둡니다.
 ```
-CLIEND_ID=...
+CLIENT_ID=...
 CLIENT_SECRET=...
 ```
 

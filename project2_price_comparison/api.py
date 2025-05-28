@@ -16,7 +16,7 @@ def fetch_product_list(query) -> list[Product]:
     url = f"https://openapi.naver.com/v1/search/shop.json?query={encText}"
 
     headers = {
-        "X-Naver-Client-Id": os.environ["CLIEND_ID"],
+        "X-Naver-Client-Id": os.environ["CLIENT_ID"],
         "X-Naver-Client-Secret": os.environ["CLIENT_SECRET"]
     }
 
