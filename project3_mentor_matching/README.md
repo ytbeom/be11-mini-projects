@@ -4,12 +4,14 @@
 
 ## 📁 프로젝트 구조
 
+```
 project3_mentor_matching/
 ├── app.py # Streamlit UI entrypoint
 ├── db.py # MongoDB 연결 및 데이터 저장/조회
 ├── mentee_form_page.py # 멘티 등록 페이지
 ├── mentor_matching_page.py # 멘토 매칭 페이지
 └── schemas.py # 멘티, 멘토 클래스
+```
 
 ## 🚀 실행 방법
 
