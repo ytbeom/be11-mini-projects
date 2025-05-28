@@ -30,7 +30,7 @@ def fetch_product_list(query) -> list[Product]:
 
     # TODO: resp_j 내용을 사용해 Product 인스턴스의 list를 만드는 코드 작성
     product_list = []
-    # TODO:
+    # TODO
 
     return product_list
 

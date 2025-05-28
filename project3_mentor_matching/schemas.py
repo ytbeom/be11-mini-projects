@@ -38,7 +38,7 @@ class Mentee:
 
 
 class Mentor:
-    def __init__(self, name: str, company: str, position: str, location: str, skills: list[str], available_days: list[str], mbti: str, _id=None):
+    def __init__(self, name: str, company: str, position: str, location: str, skills: list[str], available_days: list[str], mbti: str):
         self.name = name
         self.company = company
         self.position = position
@@ -46,7 +46,6 @@ class Mentor:
         self.skills = skills
         self.available_days = available_days
         self.mbti = mbti
-        self._id = _id
 
     @classmethod
     def from_dict(cls, data: dict):
